@@ -1,0 +1,12 @@
+body {
+    background-color: purple;
+    color: red;
+}
+
+bdo {
+    background-color: brown;
+    font-size: 60px;
+    font-family: fantasy;
+    border: 2px solid yellowgreen;
+    padding: 3px;
+}

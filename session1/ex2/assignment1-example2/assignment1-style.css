@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(to bottom, #E0FFFF, #E3D7FF);
+    padding: 10px;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    border-radius: 60px;
+    background-color:cornflowerblue;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 20px;
+}
+
+h2{
+    font-size: 80px;
+    color: blue;
+    text-align: center;
+    background-color: lightgrey;
+    border-top: 5px darkblue solid;
+    border-radius: 10px;
+}
+
+h3{
+    font-size: 60px;
+    background-color: lightcyan;
+    border-left: 5px darkblue solid;
+    padding: 10px;
+}
+
+p{
+    font-size: 40px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.Musk{
+    color: blue;
+    font-weight: bold;
+}
+
+.SpaceX{
+    color: red;
+    font-style: italic;
+}
+
+.doller{
+    color: green;
+}
