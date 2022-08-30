@@ -1,0 +1,62 @@
+body{
+    width: 100px;
+}
+
+h2{
+    font-size: 50px;
+    color: dimgray;
+    /* 文字の左側50px分だけ青く */
+}
+
+.contents{
+    width: 50vw;
+    /* 真ん中に寄せる */
+}
+
+.header_title{
+    /* ヘッダー画像の中に組み合わせる */
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    background-color: lightcoral;
+    padding: 5px;
+    width: 18vw;
+    text-align: center;
+}
+
+.menu{
+    background-color: dodgerblue;
+}
+
+.menulist{
+    color: white;
+    /* ・を消す */
+    /* 横並びにする */
+    padding: 10px;
+    font-weight: bold;
+}
+
+.character_image{
+    /* 位置を真ん中に */
+    border-radius: 10px;
+    /* 影をつける */
+}
+
+.character_name{
+    color: red;
+    /* 下線をつける */
+}
+
+.description{
+    border-left: 1px blue solid;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.says{
+    background-color: dodgerblue;
+    border-radius: 2px;
+    color: white;
+    padding: 5px;
+    margin-left: 20px;
+}

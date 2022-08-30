@@ -1,0 +1,43 @@
+body{
+    background-color: dodgerblue;
+    font-size: 20px;
+}
+
+header{
+    background-image: url(./assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px;
+}
+
+main{
+    margin: auto 5px;
+}
+
+.logo{
+    margin-top: 10%;
+}
+
+.header{
+    display: block;
+    margin: 0px auto 20px auto;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    background-color: white;
+    color: orange;
+    padding: 10px;
+}
+.images{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text{
+    margin: 10px 20px;
+    padding: 5px;
+    border-left: 5px orange solid;
+    background-color: white;
+}
