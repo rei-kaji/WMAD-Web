@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'My font';
+    src: url("./assets/DynaPuff-VariableFont_wdth\,wght.ttf");
+}
+
+body{
+    background: url("./assets/background.jpg");
+    background-size: cover;
+    transform: rotateZ(180deg, -180deg);
+    display: flex;
+    width: 100vw;
+}
+
+menu{
+    flex-grow: 0;
+}
+
+main{
+    background-color: white;
+    border-radius: 5px;
+    flex-grow: 5;
+    padding: 10px 15px;
+    margin-left: 40px;
+    margin-right: 70px;
+}
+
+nav{
+    background: linear-gradient(to bottom, deepskyblue 5%, dodgerblue);;
+    border: 1px white double;
+    border-radius: 5px;
+    display: inline-block;
+    width: 90%;
+    height:fit-content;
+    margin-top: 40%;
+    margin-left: 10px;
+}
+
+li {
+    list-style: none;
+    font-size: 16px;
+    padding:5px;
+  }
+
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-right: 35px;
+}
+
+h1{
+    font-family: My font;
+    background: linear-gradient(to left, tomato 5%, red);
+    color: white;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.images{
+    width: 100%;
+    box-shadow:7px 7px 10px darkgray;
+}
+
+.logo{
+    width: 3%;
+    vertical-align: middle;
+}
+
+.timeline{
+    border: 1px red solid;
+    border-radius: 10px;
+    background-color: lightblue;
+    padding: 15px;
+}
+
+table{
+    table-layout: fixed;
+    width: 100%;
+    display: table;
+}
+
+.timeperiod{
+    width: 5vw;
+}
+
+.development{
+    width: 50vw;
+}
+
+.table_contents{
+    background-color: white;
+    border: 1px lightblue solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+    word-wrap: break-word;
+    font-size: 10px;
+    /* width: 1px; */
+}
+
+.history{
+    position: relative;
+}
+
+#timelineofgooglesearch{
+    position: absolute;
+    top: -60px;
+}
+
+.last{
+    margin-bottom: 50px;
+}
