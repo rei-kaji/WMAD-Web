@@ -1,0 +1,99 @@
+body{
+    padding: 50px;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+main {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px aqua solid;
+    box-shadow: 7px 7px 10px darkgray;
+    text-align: center;
+    position: relative;
+}
+
+form {
+    display: inline-block;
+}
+
+input {
+    display: block;
+}
+
+.welcome {
+    flex-grow: 1;
+    background: linear-gradient(to right, #99FFFF 5%, aqua);
+    border-radius: 20px 0px 0px 20px;
+    width: 50%;
+    display: inline-block;
+    padding: 120px 10px;
+    color: white;
+}
+
+.welcome p{
+    font-size: 20px;
+}
+
+.sign_up {
+    flex-grow: 1;
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    padding: 50px 20px;
+}
+
+.sign_up p{
+    font-size: 13px;
+}
+
+.sign_in{
+    flex-grow: 1;
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    padding: 50px 20px;
+}
+
+.hello{
+    flex-grow: 1;
+    background: linear-gradient(to right, #99FFFF 5%, aqua);
+    border-radius: 0px 20px 20px 0px;
+    width: 50%;
+    display: inline-block;
+    padding: 120px 10px;
+    color: white;
+}
+
+button{
+    border-radius: 20px;
+    border: 1px white solid;
+    color: white;
+    background-color: aqua;
+    font-weight: bold;
+    padding: 10px 30px;
+    font-size: 10px;
+}
+
+input{
+    width: 200px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+
+#submit{
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: aqua;
+}
