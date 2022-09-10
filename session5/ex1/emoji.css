@@ -1,0 +1,118 @@
+body{
+    margin: 100px 20vw;
+    border: 5px #FFCC33 solid;
+    border-radius: 20px;
+    padding: 0px;
+}
+header h1{
+    padding: 5% 2%;
+    text-align: center;
+    color: #FFCC33;
+    font-size: 400%;
+    font-family: 'TypeMachine';
+    text-shadow: 0 0 10px #edd383,0 0 15px #edd383;
+}
+
+p{
+    font-family: 'FuturaHandwritten';
+}
+
+.header_images img{
+    width: 100%;
+}
+
+.menu_ul{
+    margin-top: 20px;
+    padding: 0px;
+    height: 10vh;
+    display: inline-block;
+    background-color: #FFCC33;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_li{
+    list-style: none;
+    color: white;
+    font-size: 120%;
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'TypeMachine';
+}
+
+.menu_li+li{
+    border-left: 1px solid white;
+}
+
+.menu_li a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu_li a:last-child {
+    margin-right: 30px;
+}
+
+.character{
+    margin: 50px 100px;
+}
+
+.name{
+    border-top:1px black solid;
+    width: fit-content;
+    font-family: 'Mabook';
+    font-size: 15vh;
+    padding-top: 10px;
+    text-shadow: 1px 1px 0 #FFCC33, -1px -1px 0 #FFCC33,
+    -1px 1px 0 #FFCC33, 1px -1px 0 #FFCC33,
+    0px 1px 0 #FFCC33,  0-1px 0 #FFCC33,
+    -1px 0 0 #FFCC33, 1px 0 0 #FFCC33;;
+}
+
+.character_image{
+    text-align: center;
+    width: 80%;
+}
+
+.character_image:last-child{
+    width: 120%;
+}
+
+
+.text{
+    font-size: 5vh;
+}
+
+.cast{
+    font-size: 5vh;
+    font-family: 'FuturaHandwritten';
+}
+
+.cast span{
+    background-color: #FFCC33;
+    text-decoration: underline;
+    font-size: 7vh;
+}
+
+footer{
+    border-top: #FFCC33 1px solid;
+    padding: 5% 20%;
+    text-align: center;
+}
+
+.header_group{
+    position: relative;
+}
+
+.count_number{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: white;
+    font-size: 50px;
+}
+
+#counter{
+    margin: 0px;
+}
