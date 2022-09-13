@@ -1,0 +1,770 @@
+body{
+    position: relative;
+    width: 1440px;
+    height: 4708px;
+    
+    background: #ECF3FE;
+}
+
+.menu_background{
+    position: absolute;
+    width: 218px;
+    height: 394px;
+    left: 88px;
+    top: 53px;
+    
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+li{
+    list-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #737677;
+}
+
+a{
+    color: #737677;
+    text-decoration: none;
+}
+
+.menu_medium{
+    position: absolute;
+    width: 95px;
+    height: 19px;
+    left: 102px;
+    top: 82px;
+}
+
+.menu_note{
+    position: absolute;
+    width: 83px;
+    height: 19px;
+    left: 102px;
+    top: 145px;
+}
+
+.menu_sns{
+    position: absolute;
+    width: 114px;
+    height: 19px;
+    left: 102px;
+    top: 208px;
+}
+
+.menu_web{
+    position: absolute;
+    width: 171px;
+    height: 18px;
+    left: 102px;
+    top: 271px;
+}
+
+.menu_security{
+    position: absolute;
+    width: 57px;
+    height: 19px;
+    left: 102px;
+    top: 333px;
+}
+
+.menu_other{
+    position: absolute;
+    width: 190px;
+    height: 21px;
+    left: 102px;
+    top: 396px;
+}
+
+.main_background{
+    position: absolute;
+    width: 1024px;
+    height: 4625px;
+    left: 328px;
+    top: 53px;
+    
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.title{
+    position: absolute;
+    width: 529px;
+    height: 38px;
+    left: 576px;
+    top: 101px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.date{
+    position: absolute;
+    width: 99px;
+    height: 19px;
+    left: 791px;
+    top: 174px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #737677;
+}
+
+.intro{
+    position: absolute;
+    width: 971px;
+    height: 72px;
+    left: 352px;
+    top: 238px;
+    
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 179.19%;
+    /* or 36px */
+    
+    
+    color: #000000;
+}
+
+.app_name_note{
+    position: absolute;
+    width: 125px;
+    height: 43px;
+    left: 351px;
+    top: 332px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 179.19%;
+    /* identical to box height, or 43px */
+    
+    
+    color: #1970F7;
+}
+
+.app_name_sns{
+    position: absolute;
+    width: 207px;
+    height: 42px;
+    left: 351px;
+    top: 1511px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 179.19%;
+    /* or 43px */
+    
+    
+    color: #1970F7;
+}
+
+.app_name_web{
+    position: absolute;
+    width: 207px;
+    height: 42px;
+    left: 351px;
+    top: 2617px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 179.19%;
+    /* or 43px */
+    
+    
+    color: #1970F7;
+}
+
+.app_name_security{
+    position: absolute;
+    width: 207px;
+    height: 42px;
+    left: 352px;
+    top: 3226px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 179.19%;
+    /* or 43px */
+    
+    
+    color: #1970F7;
+}
+
+.app_name_other{
+    position: absolute;
+    width: 207px;
+    height: 42px;
+    left: 352px;
+    top: 3908px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 179.19%;
+    /* or 43px */
+    
+    
+    color: #1970F7;
+}
+
+.note_image{
+    position: absolute;
+    width: 675px;
+    height: 442px;
+    left: 503px;
+    top: 419px;
+}
+
+.sns_image{
+    position: absolute;
+    width: 675px;
+    height: 442px;
+    left: 503px;
+    top: 1597px;
+}
+
+.web_image{
+    position: absolute;
+    width: 675px;
+    height: 233px;
+    left: 503px;
+    top: 2703px;
+}
+
+.security_image{
+    position: absolute;
+    width: 675px;
+    height: 233.18px;
+    left: 503px;
+    top: 3312px;
+}
+
+.note_explanation{
+    position: absolute;
+    width: 980px;
+    height: 576px;
+    left: 352px;
+    top: 865px;
+    
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 179.19%;
+}
+
+.sns_explanation{
+    position: absolute;
+    width: 969px;
+    height: 504px;
+    left: 352px;
+    top: 2083px;
+    
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 179.19%;
+}
+
+.web_explanation{
+    position: absolute;
+    width: 963px;
+    height: 216px;
+    left: 352px;
+    top: 2980px;
+    
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 179.19%;
+}
+
+.security_explanation{
+    position: absolute;
+    width: 983px;
+    height: 288px;
+    left: 352px;
+    top: 3540px;
+    
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 179.19%;
+}
+
+table{
+    position: absolute;
+    width: 976px;
+    height: 609px;
+    left: 352px;
+    top: 3980px;
+    
+    background: #F5F7F8;
+}
+
+.last_message{
+    position: absolute;
+    width: 362px;
+    height: 36px;
+    left: 358px;
+    top: 4600px;
+    
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 179.19%;
+    /* identical to box height, or 36px */
+    
+    
+    color: #000000;
+}
+
+span{
+    text-decoration-line: underline;
+
+    color: #06C755;
+}
+/* 
+tr{
+    padding: 20px;
+}
+
+td{
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 179.19%;
+}
+
+.table_explanation{
+    background: #FFFFFF;
+    border-radius: 3px;
+    padding-left: 10px;
+    height: fit-content;
+}
+
+.number{
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 179.19%;
+    /* or 32px */
+    
+    
+    color: #06C755;
+} */
+
+
+.other_background{
+    position: absolute;
+    width: 976px;
+    height: 609px;
+    left: 352px;
+    top: 3980px;
+    
+    background: #F5F7F8;
+}
+
+.number1{
+    position: absolute;
+    width: 16px;
+    height: 32px;
+    left: 365px;
+    top: 4010px;
+    
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 179.19%;
+    /* or 32px */
+    
+    
+    color: #06C755;
+    
+}
+
+.number2{
+    position: absolute;
+    width: 16px;
+    height: 32px;
+    left: 365px;
+    top: 4121px;
+    
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 179.19%;
+    /* or 32px */
+    
+    
+    color: #06C755;
+    
+}
+
+.number3{
+    position: absolute;
+    width: 16px;
+    height: 32px;
+    left: 365px;
+    top: 4229px;
+    
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 179.19%;
+    /* or 32px */
+    
+    
+    color: #06C755;
+    
+}
+
+.number4{
+    position: absolute;
+    width: 16px;
+    height: 32px;
+    left: 365px;
+    top: 4281px;
+    
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 179.19%;
+    /* or 32px */
+    
+    
+    color: #06C755;
+}
+
+.number5{
+    position: absolute;
+    width: 16px;
+    height: 32px;
+    left: 365px;
+    top: 4330px;
+    
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 179.19%;
+    /* or 32px */
+    
+    
+    color: #06C755;
+}
+
+.number6{
+    position: absolute;
+    width: 16px;
+    height: 32px;
+    left: 365px;
+    top: 4400px;
+    
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 179.19%;
+    /* or 32px */
+    
+    
+    color: #06C755;
+}
+
+.number7{
+    position: absolute;
+    width: 16px;
+    height: 32px;
+    left: 365px;
+    top: 4449px;
+    
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 179.19%;
+    /* or 32px */
+    
+    
+    color: #06C755;
+}
+
+.number8{
+    position: absolute;
+    width: 16px;
+    height: 32px;
+    left: 366px;
+    top: 4498px;
+    
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 179.19%;
+    /* or 32px */
+    
+    
+    color: #06C755;   
+}
+
+.number1_background{
+    position: absolute;
+    width: 915px;
+    height: 101px;
+    left: 392px;
+    top: 4010px;
+    
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+.number2_background{
+    position: absolute;
+    width: 915px;
+    height: 101px;
+    left: 392px;
+    top: 4121px;
+    
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+.number3_background{
+    position: absolute;
+    width: 915px;
+    height: 39px;
+    left: 392px;
+    top: 4232px;
+    
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+.number4_background{
+    position: absolute;
+    width: 915px;
+    height: 39px;
+    left: 392px;
+    top: 4281px;
+    
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+.number5_background{
+    position: absolute;
+    width: 915px;
+    height: 60px;
+    left: 392px;
+    top: 4330px;
+    
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+.number6_background{
+    position: absolute;
+    width: 915px;
+    height: 39px;
+    left: 392px;
+    top: 4400px;
+    
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+.number7_background{
+    position: absolute;
+    width: 915px;
+    height: 39px;
+    left: 392px;
+    top: 4449px;
+    
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+.number8_background{
+    position: absolute;
+    width: 915px;
+    height: 69px;
+    left: 392px;
+    top: 4498px;
+    
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+
+.number1_body{
+    position: absolute;
+    width: 876px;
+    height: 87px;
+    left: 406px;
+    top: 4017px;
+    
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 179.19%;
+    /* or 29px */
+    
+    
+    color: #000000;
+    
+}
+.number2_body{
+    position: absolute;
+    width: 868px;
+    height: 80px;
+    left: 406px;
+    top: 4132px;
+    
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 179.19%;
+    /* or 29px */
+    
+    
+    color: #000000;
+}
+.number3_body{
+    position: absolute;
+    width: 428px;
+    height: 29px;
+    left: 406px;
+    top: 4238px;
+    
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 179.19%;
+    /* identical to box height, or 29px */
+    
+    
+    color: #000000;
+    
+}
+.number4_body{
+    position: absolute;
+    width: 758px;
+    height: 29px;
+    left: 406px;
+    top: 4286px;
+    
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 179.19%;
+    /* identical to box height, or 29px */
+    
+    
+    color: #000000;
+}
+.number5_body{
+    position: absolute;
+    width: 858px;
+    height: 58px;
+    left: 406px;
+    top: 4332px;
+    
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 179.19%;
+    /* or 29px */
+    
+    
+    color: #000000;
+    
+}
+.number6_body{
+    position: absolute;
+    width: 603px;
+    height: 29px;
+    left: 406px;
+    top: 4404px;
+    
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 179.19%;
+    /* identical to box height, or 29px */
+    
+    
+    color: #000000;
+}
+.number7_body{
+    position: absolute;
+    width: 875px;
+    height: 29px;
+    left: 406px;
+    top: 4453px;
+    
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 179.19%;
+    /* identical to box height, or 29px */
+    
+    
+    color: #000000;
+}
+.number8_body{
+    position: absolute;
+    width: 898px;
+    height: 58px;
+    left: 406px;
+    top: 4503px;
+    
+    font-family: 'Charter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 179.19%;
+    /* or 29px */
+    
+    
+    color: #000000;   
+}
