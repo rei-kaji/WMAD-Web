@@ -1,0 +1,365 @@
+.body{
+    position: relative;
+}
+
+header{
+    position: absolute;
+    width: 1440px;
+    height: 760px;
+    left: 0px;
+    top: 0px;
+    background-image: url("./images/header.png");
+}
+
+li{
+    list-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    color: #FFFFFF; 
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu_biography{
+    position: absolute;
+    width: 73px;
+    height: 19px;
+    left: 86px;
+    top: 30px;
+}
+
+.menu_history{
+    position: absolute;
+    width: 140px;
+    height: 19px;
+    left: 202px;
+    top: 30px;
+}
+
+.menu_personality{
+    position: absolute;
+    width: 170px;
+    height: 19px;
+    left: 386px;
+    top: 30px;
+}
+
+.menu_skills{
+    position: absolute;
+    width: 219px;
+    height: 19px;
+    left: 600px;
+    top: 30px;
+}
+
+.menu_cast{
+    position: absolute;
+    width: 115px;
+    height: 19px;
+    left: 863px;
+    top: 30px;
+}
+
+.logo_image{
+    position: absolute;
+    width: 481px;
+    height: 270px;
+    left: 100px;
+    top: 220px;
+}
+
+.biography_image{
+    position: absolute;
+    width: 512px;
+    height: 664px;
+    left: 127px;
+    top: 871px;
+}
+
+.biography_title{
+    position: absolute;
+    width: 164px;
+    height: 42px;
+    left: 739px;
+    top: 1015px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #416FBF;
+}
+
+.biography_body{
+    position: absolute;
+    width: 593px;
+    height: 288px;
+    left: 739px;
+    top: 1103px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    
+    color: black;
+}
+
+.history_background{
+    position: absolute;
+    width: 1440px;
+    height: 767px;
+    /* left: 5px; */
+    top: 1646px;
+    background-image: url("./images/history.png");
+}
+
+.history_title{
+    position: absolute;
+    width: 313px;
+    height: 42px;
+    left: 108px;
+    top: 1799px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #E40F29;    
+}
+
+.history_title_background{
+    position: absolute;
+    width: 332px;
+    height: 83px;
+    left: 88px;
+    top: 1804px;
+    
+    background: #FFFFFF;
+}
+
+.history_body{
+    position: absolute;
+    width: 664px;
+    height: 96px;
+    left: 88px;
+    top: 1933px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    
+    color: #FFFFFF;
+}
+
+.personality_title{
+    position: absolute;
+    width: 382px;
+    height: 42px;
+    left: 90px;
+    top: 2502px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #416FBF;
+}
+
+.personality_body1{
+    position: absolute;
+    width: 1254px;
+    height: 98px;
+    left: 88px;
+    top: 2620px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    
+    color: #000000;
+}
+
+.personality_body2{
+    position: absolute;
+    width: 1235px;
+    height: 74px;
+    left: 122px;
+    top: 2695px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    
+    color: #000000;
+}
+
+.personality_body3{
+    position: absolute;
+    width: 973px;
+    height: 25px;
+    left: 88px;
+    top: 2776px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    
+    color: #000000;
+}
+
+.personality_body4{
+    position: absolute;
+    width: 1230px;
+    height: 119px;
+    left: 122px;
+    top: 2808px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    
+    color: #000000;
+}
+
+.skills_title{
+    position: absolute;
+    width: 492px;
+    height: 42px;
+    left: 79px;
+    top: 3102px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #416FBF;
+}
+
+.skills_body{
+    position: absolute;
+    width: 695px;
+    height: 312px;
+    left: 88px;
+    top: 3190px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    
+    color: #000000;
+    
+}
+
+.skills_image{
+    position: absolute;
+    width: 512px;
+    height: 527.28px;
+    left: 801px;
+    top: 3038px;
+    
+}
+
+.footer_background{
+    position: absolute;
+    width: 1435px;
+    height: 564px;
+    /* left: 1483px; */
+    top: 3692px;
+    /* background-image: url("./images/footer.png"); */
+}
+
+.footer_title{
+    position: absolute;
+    width: 258px;
+    height: 42px;
+    left: 663px;
+    top: 3753px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #E40F29;
+}
+
+.footer_title_background{
+    position: absolute;
+    width: 332px;
+    height: 83px;
+    left: 626px;
+    top: 3757px;
+    
+    background: #FFFFFF;
+}
+
+.footer_body{
+    position: absolute;
+    width: 726px;
+    height: 288px;
+    left: 626px;
+    top: 3880px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    
+    color: #FFFFFF;
+}
+
+.span_red{
+    text-decoration: underline;
+    color: #9A1D23;
+}
+
+.span_bold{
+    font-weight: bold;
+    text-decoration: underline;
+}
