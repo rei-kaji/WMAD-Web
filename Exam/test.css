@@ -1,0 +1,160 @@
+body {
+  position: relative;
+  width: 1440px;
+}
+
+.header_img {
+  /* bw-greek-statue-image-torn-paper-style-remixed-media 1 */
+
+  position: absolute;
+  width: 1264px;
+  height: 875px;
+  left: 88.31px;
+  top: -114px;
+
+  background: url(./images/bw-greek-statue-image-torn-paper-style-remixed-media.png);
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+header li {
+  position: absolute;
+  z-index: 3;
+  list-style: none;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.li1 {
+  /* Abstract Art */
+
+  position: absolute;
+  width: 100px;
+  height: 21px;
+  left: 233px;
+  top: 50px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.li2 {
+  /* History */
+
+  position: absolute;
+  width: 60px;
+  height: 21px;
+  left: 386px;
+  top: 50px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.li3 {
+  /* Classical antiquity */
+
+  position: absolute;
+  width: 150px;
+  height: 21px;
+  left: 504px;
+  top: 50px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.li4 {
+  /* East Asia */
+
+  position: absolute;
+  width: 76px;
+  height: 21px;
+  left: 701px;
+  top: 50px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.li5 {
+  /* Abstract movie */
+
+  position: absolute;
+  width: 124px;
+  height: 21px;
+  left: 833px;
+  top: 50px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.li6 {
+  /* Gallery */
+
+  position: absolute;
+  width: 58px;
+  height: 21px;
+  left: 1008px;
+  top: 50px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.li7 {
+  position: absolute;
+  width: 84px;
+  height: 21px;
+  left: 1124px;
+  top: 50px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
