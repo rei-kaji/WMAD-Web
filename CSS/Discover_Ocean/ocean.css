@@ -1,0 +1,346 @@
+body {
+  background-image: url("./images/photo_2022-09-21\ 20.11.07.jpeg");
+  /* width: 1440px; */
+  padding-right: 88px;
+  padding-left: 88px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+header {
+  display: flex;
+  /* margin: 0 auto; */
+  justify-content: center;
+  /* align-items: center; */
+}
+
+header ul {
+  display: flex;
+  padding-top: 33px;
+}
+
+header li {
+  list-style: none;
+  white-space: nowrap;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  margin-right: 60px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+header .counter {
+  color: white;
+  white-space: nowrap;
+  width: 151px;
+  /* height: 143px; */
+  padding-top: 41px;
+  padding-bottom: 9px;
+  background: #479bbc;
+  text-align: center;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 172.19%;
+}
+
+header .counter p {
+  margin: 0px;
+}
+
+.title h1 {
+  font-family: "Raanana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 148%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.title h3 {
+  font-family: "Raanana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 148%;
+  /* identical to box height, or 30px */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.ocean h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 148%;
+  margin-top: 141px;
+
+  color: #ffffff;
+}
+
+.ocean p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 148%;
+  /* or 24px */
+
+  color: #ffffff;
+}
+
+.ocean_live h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 148%;
+  margin-top: 109px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.ocean_live img {
+  width: 1264px;
+  height: 623px;
+}
+
+_:lang(x) + _:-webkit-full-screen-document,
+.ocean_live img {
+  width: 1264px;
+  height: 623px;
+}
+
+.ocean_and_sea {
+  display: flex;
+  margin-top: 163px;
+  margin-right: 0px;
+}
+
+.ocean_and_sea h2 {
+  width: 188px;
+  height: 41px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 148%;
+  color: #ffffff;
+  margin: 199px 494px 45px 52px;
+  white-space: nowrap;
+}
+
+.ocean_and_sea p {
+  width: 637px;
+  height: 240px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 148%;
+  color: #ffffff;
+  margin: 0 43px 45px 52px;
+  word-wrap: break-word;
+}
+
+.ocean_and_sea img {
+  position: relative;
+  width: 475px;
+  height: 709px;
+  border-radius: 13px;
+}
+
+.world_ocean {
+  /* position: fixed; */
+  margin-top: 136.02px;
+}
+
+.world_ocean h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 148%;
+  /* or 41px */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.world_ocean p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 148%;
+  /* or 24px */
+
+  color: #ffffff;
+}
+
+.etymology {
+  display: flex;
+}
+
+.back {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
+  width: 1264px;
+  height: 486px;
+  left: 88px;
+  top: 2934px;
+}
+
+.etymology .etymology_contents {
+  margin-top: 253px;
+}
+
+.etymology .etymology_contents h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 148%;
+  /* or 41px */
+
+  /* text-align: center; */
+
+  color: #ffffff;
+}
+
+.etymology .etymology_contents p {
+  width: 674px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 148%;
+  /* or 24px */
+
+  color: #ffffff;
+}
+
+.etymology img {
+  margin-top: 181px;
+  margin-left: 54px;
+}
+
+.ocean_divisions {
+  margin-top: 59px;
+}
+
+.ocean_divisions h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 148%;
+  /* or 41px */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.ocean_divisions table {
+  margin-left: 99px;
+  border-spacing: 6.4px;
+}
+
+.ocean_divisions tr {
+  height: 48px;
+}
+
+.ocean_divisions th {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+
+.ocean_divisions td {
+  background-color: white;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  /* identical to box height, or 181% */
+
+  color: #000000;
+}
+
+.ocean_divisions .td-ocean {
+  width: 147.6px;
+}
+
+.ocean_divisions .td-location {
+  width: 495px;
+}
+
+.ocean_divisions .td-area {
+  width: 125px;
+}
+
+.ocean_divisions .td-volume {
+  width: 164px;
+}
+
+.ocean_divisions .td-depth {
+  width: 125px;
+}
+
+.ocean_divisions th {
+  background: #468ca2;
+}
+
+.refrences {
+  margin-top: 110px;
+  margin-bottom: 110px;
+}
+
+.refrences h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 148%;
+
+  color: #ffffff;
+}
+
+.refrences li {
+  list-style: none;
+}
+
+.refrences a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 198%;
+  /* or 40px */
+
+  text-decoration-line: underline;
+
+  color: #ffffff;
+}
