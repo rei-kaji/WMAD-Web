@@ -40,9 +40,7 @@ header .counter {
   color: white;
   white-space: nowrap;
   width: 151px;
-  /* height: 143px; */
-  padding-top: 41px;
-  padding-bottom: 9px;
+  padding: 41px 22px 9px 22px;
   background: #479bbc;
   text-align: center;
 
