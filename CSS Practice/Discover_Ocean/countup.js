@@ -1,8 +1,5 @@
 var start = new Date();
 
-// 初期化
-var hour = 0;
-var min = 0;
 var sec = 0;
 var now = 0;
 var datet = 0;
