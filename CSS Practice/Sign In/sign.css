@@ -33,7 +33,7 @@ main {
   margin: 0 auto;
   border-radius: 20px;
   /* border: 1px aqua solid; */
-  box-shadow: 7px 7px 10px darkgray;
+  box-shadow: 1px 3px 3px 5px rgb(228, 221, 221);
   text-align: center;
   position: relative;
 }
@@ -320,4 +320,12 @@ input {
   border-radius: 30px;
   text-align: center;
   /* background-color: aqua; */
+}
+
+.fa-brands {
+  color: rgb(219, 214, 214);
+}
+
+.fa-brands:hover {
+  color: rgb(133, 130, 130);
 }
