@@ -1,0 +1,63 @@
+body {
+  padding: 5rem;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  color: #2779b0;
+  word-wrap: break-word;
+}
+
+.border {
+  border: 2px solid #cecece;
+}
+
+h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #2779b0;
+
+  background: linear-gradient(
+    270deg,
+    rgba(39, 121, 176, 0.5) -36.61%,
+    rgba(250, 250, 250, 0) 170.39%
+  );
+  padding: 1rem;
+}
+
+.imagecontainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 2rem;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  margin: 3rem 0 3rem 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  /* or 144% */
+
+  color: #000000;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    padding: 2rem;
+  }
+}
