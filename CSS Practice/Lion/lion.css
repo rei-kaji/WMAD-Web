@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: relative;
+}
+header img {
+  width: 100%;
+}
+header h1 {
+  position: absolute;
+  z-index: 2;
+  font-family: "M PLUS Code Latin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 158px;
+  left: 75%;
+  top: 30%;
+  color: #ffffff;
+}
+header h2 {
+  position: absolute;
+  left: 78%;
+  bottom: 5%;
+  white-space: nowrap;
+  font-family: "M PLUS Code Latin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  color: rgba(0, 0, 0, 0.5176470588);
+}
+
+.container {
+  padding: 7rem;
+}
+.container h3 {
+  width: 10rem;
+  margin-top: 5rem;
+  padding: 1rem 1rem 1rem 0.5rem;
+  background-color: #f1f1f1;
+  background-size: contain;
+}
+.container .introduction h3 {
+  margin-top: 0;
+}
+.container .gallery .gallery_image {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.container .gallery .gallery_image img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  background-color: #f1f1f1;
+}
+
+.pagetop {
+  height: 4rem;
+  width: 4rem;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  background: #555555;
+  border: solid 2px #555555;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.pagetop .pagetop__arrow {
+  height: 10px;
+  width: 10px;
+  border-top: 3px solid #fff;
+  border-right: 3px solid #fff;
+  transform: translateY(20%) rotate(-45deg);
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+@media screen and (max-width: 1024px) {
+  header h1 {
+    font-size: 4rem;
+  }
+  header h2 {
+    font-size: 1.5rem;
+  }
+  .container {
+    padding: 3rem;
+  }
+  .container .gallery .gallery_image {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+@media screen and (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  header h2 {
+    font-size: 0.8rem;
+  }
+  .container .gallery .gallery_image {
+    grid-template-columns: 1fr;
+  }
+}/*# sourceMappingURL=lion.css.map */
