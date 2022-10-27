@@ -1,0 +1,133 @@
+/* General */
+main {
+  padding: 5rem;
+  width: 100%;
+}
+
+h1 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5rem;
+  line-height: 76px;
+  color: #19110f;
+}
+
+h2 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 38px;
+  color: #6093af;
+}
+
+p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 122.84%;
+  color: #3f677e;
+}
+
+a {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 19px;
+  /* identical to box height */
+  color: #000000;
+}
+
+/* General */
+/* Body */
+header {
+  background: url("./assets/header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50rem;
+  width: 100%;
+  padding: 3rem;
+}
+header nav {
+  height: 2rem;
+}
+header nav ul {
+  display: flex;
+  justify-content: start;
+  gap: 5rem;
+}
+header nav ul li :hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #6f513f;
+}
+header h1 {
+  margin-top: 10rem;
+}
+
+.main_contents {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 5rem;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+.left .camera {
+  overflow: hidden;
+  position: relative;
+  transition: all 0.5s ease;
+}
+.left .camera .camera_main {
+  position: relative;
+  z-index: 2;
+  background-color: white;
+}
+.left .camera .camera_main:hover {
+  opacity: 0;
+}
+.left .camera .camera_sub {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.left .camera:hover ~ .menu {
+  opacity: 1;
+}
+.left .menu {
+  opacity: 0;
+}
+
+.right .img_container {
+  padding: 5rem;
+}
+.right .img_container img {
+  width: 100%;
+}
+
+.img_container {
+  overflow: hidden;
+  position: relative;
+  margin: 2rem;
+  transition: all 2s ease-in;
+}
+.img_container:hover .photo2 {
+  display: block;
+}
+.img_container .photo1 {
+  position: relative;
+  z-index: 1;
+}
+.img_container .photo2 {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}/*# sourceMappingURL=security.css.map */

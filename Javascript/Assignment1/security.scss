@@ -1,0 +1,146 @@
+/* General */
+
+main {
+  padding: 5rem;
+  width: 100%;
+}
+
+h1 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5rem;
+  line-height: 76px;
+  color: #19110f;
+}
+
+h2 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 38px;
+
+  color: #6093af;
+}
+
+p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 122.84%;
+
+  color: #3f677e;
+}
+
+a {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+/* General */
+
+/* Body */
+
+header {
+  background: url("./assets/header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50rem;
+  width: 100%;
+  padding: 3rem;
+
+  nav {
+    height: 2rem;
+    ul {
+      display: flex;
+      justify-content: start;
+      gap: 5rem;
+      li {
+        :hover {
+          text-decoration-line: underline;
+          color: #6f513f;
+        }
+      }
+    }
+  }
+  h1 {
+    margin-top: 10rem;
+  }
+}
+
+.main_contents {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 5rem;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  .camera {
+    overflow: hidden;
+    position: relative;
+    transition: all 0.5s ease;
+
+    .camera_main {
+      position: relative;
+      z-index: 2;
+      background-color: white;
+      &:hover {
+        opacity: 0;
+      }
+    }
+    .camera_sub {
+      z-index: 1;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    &:hover ~ .menu {
+      opacity: 1;
+    }
+  }
+
+  .menu {
+    opacity: 0;
+  }
+}
+
+.right {
+  .img_container {
+    padding: 5rem;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.img_container {
+  overflow: hidden;
+  position: relative;
+  margin: 2rem;
+  transition: all 2s ease-in;
+  &:hover .photo2 {
+    display: block;
+  }
+  .photo1 {
+    position: relative;
+    z-index: 1;
+  }
+  .photo2 {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+}
