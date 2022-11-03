@@ -18,7 +18,7 @@ scrollDown.addEventListener("click", () => {
 
 let image = "";
 for (let i = 0; i < Images.length; i++) {
-  a += `<img src=${Images[i]}>`;
+  image += `<img src=${Images[i]}>`;
 }
 
 galleryImage.innerHTML = image;
