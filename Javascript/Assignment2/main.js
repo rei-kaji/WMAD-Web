@@ -22,3 +22,5 @@ for (let i = 0; i < Images.length; i++) {
 }
 
 galleryImage.innerHTML = image;
+
+console.log(galleryImage);
