@@ -1,0 +1,21 @@
+body {
+  background: url("./assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  font-family: "Montserrat";
+}
+
+.App {
+  position: relative;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .planet {
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+    z-index: 1;
+  }
+}
